@@ -25,8 +25,6 @@ class AlgorithmTests: XCTestCase {
     stack.push(3)
     stack.push(10)
     
-    
-    
     XCTAssert(stack.count == 2)
     XCTAssert(stack.top == 10)
     XCTAssert(stack.top == 10)
@@ -41,12 +39,6 @@ class AlgorithmTests: XCTestCase {
     stack.insertAt(10, 0)
     XCTAssert(stack.count == 3)
     XCTAssert(stack.removeAt(0) == 10)
-    
-    
-    
-    
-    
-    
     
   }
   
