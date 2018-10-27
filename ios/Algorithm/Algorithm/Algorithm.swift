@@ -29,4 +29,17 @@ public struct Stack<T> {
   public var top: T? {
     return array.last
   }
+  
+  public mutating func removeAll(){
+    array.removeAll()
+  }
+  
+  public mutating func insertAt(_ element: T, _ at: Int) {
+    array.insert(element, at: at)
+  }
+  
+  public mutating func removeAt(_ at: Int) -> T? {
+    return array.remove(at: at)
+  }
+  
 }
